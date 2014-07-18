@@ -42,6 +42,10 @@ import org.kohsuke.stapler.interceptor.RequirePOST;
 
 import ci.xlj.libs.utils.StringUtils;
 
+/**
+ * @author kfzx-xulj
+ *
+ */
 @Extension
 @ExportedBean
 public class NodesCreatorPlugin extends Plugin {
