@@ -43,8 +43,9 @@ import org.kohsuke.stapler.interceptor.RequirePOST;
 import ci.xlj.libs.utils.StringUtils;
 
 /**
+ * Provides adding-nodes-by-command-line functionality to Jenkins.
+ * 
  * @author kfzx-xulj
- *
  */
 @Extension
 @ExportedBean
@@ -55,7 +56,8 @@ public class NodesCreatorPlugin extends Plugin {
 	}
 
 	@Exported
-	public boolean getExistence() {
+	public boolean getNodeList() {
+		//TODO
 		return false;
 	}
 
